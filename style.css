@@ -663,6 +663,10 @@ border: 0px;
 	box-shadow: 0px 4px 10px #d0d0d0 !important;
 }
 
+.profile-align {
+  flex-wrap: wrap;
+}
+
 .profile-left {
 	width:25%;
 	text-align:center;
