@@ -666,7 +666,20 @@ border: 0px;
 
 /* Member Profile
 ------------------------- */
+.profile-align {
+  flex-wrap: wrap;
+}
+
 .member-profile {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  ".headshot name."
+  ".headshot title."
+  ".headshot hyperlinks."
+  ".headshot exp.";
+
 	margin-bottom:10px;
 	padding-bottom:10px;
 	clear:both;
@@ -706,6 +719,10 @@ border: 0px;
 
 }
 
+.profile-name {
+  grid-area: name;
+}
+
 h2.profile-name {
   text-transform: none;
 	/*font-weight:bold;*/
@@ -719,6 +736,10 @@ h2.profile-name {
   text-decoration: none; /* no underline */
 }
 
+.profile-title {
+  grid-area: title;
+}
+
 h3.profile-title {
   text-transform: none;
   font-weight: lighter;
@@ -726,10 +747,19 @@ h3.profile-title {
 	margin-top:5px;
 }
 
-h3.profile-title span {
+h3.profile-hyperlinks span {
+  grid-area: hyperlinks;
   text-transform: none;
 	font-size:14px;
 	font-style:italic;
+}
+
+.profile-hyperlinks {
+  grid-area: hyperlinks;
+}
+
+.profile-exp {
+  grid-area: exp;
 }
 
 p.profile-quote {
@@ -759,6 +789,7 @@ h2.news a:hover{
 .menu h3{
 	color: #fff !important;
 }
+
 
 /* Partners
 -------------------------------------------------- */
