@@ -139,18 +139,41 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
     </div> <!-- /.container -->
   </div> <!-- banner -->
 
-  <!-- Team Image-->
-  <div class="container">
-    <div class="row">
-      <div class="team-profile">
-        <div class="col-lg-8 col-lg-offset-1">
-          <div class="team-img auto-scale">
-            <img src="img/team.jpg" width="450%">
+  <!-- Team Carousel -->
+  <div class="container carousel-background">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="team-profile">
+            <div class="col-lg-8 col-lg-offset-1">
+              <div class="team-img auto-scale">
+                <img class="teamCarouselImg" src="img/team.jpg" width="450%">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="team-profile">
+            <div class="col-lg-8 col-lg-offset-1">
+              <div class="team-img auto-scale">
+                <img class="teamCarouselImg" src="img/ParanBday.jpg" width="450%">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <section>
     <div class="container">
@@ -164,10 +187,11 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
         </div>
       </div>
       <!--PI ################################################################################################-->
+
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type1">
               <img src="img/headshots/Erik.jpg">
             </div>
           </div>
@@ -175,7 +199,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
           <div class="col-md-8  col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">
-                <a href="director.html"> Erik Kjeang, Ph.D., P.Eng.</a>
+                <a href="director.html"> Erik Kjeang</a>
               </h2>
               <h3 class="profile-title">Canada Research Chair in Fuel Cell Science and Technology Development</h3>
               <h3 class="profile-title">
@@ -205,7 +229,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type2">
               <img src="img/headshots/Frank.jpg">
             </div>
           </div>
@@ -231,7 +255,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type2">
               <img src="img/headshots/PeiPei.jpg">
             </div>
           </div>
@@ -250,16 +274,6 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
 
       <!--Current Members #############################################################################-->
       <!--Title #############################################################################################-->
-      <!-- <div class="bg-primary">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h4 class="section-heading-light"> Current Members </h4>
-          </div>
-        </div>
-      </div> -->
-
-      <!--Current Members #############################################################################-->
-      <!--Title #############################################################################################-->
       <div class="bg-primary">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -268,42 +282,32 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
         </div>
       </div>
       <!--PDF List ##########################################################################################-->
-      <!--Graduate Students #################################################################################-->
-      <!--Title #############################################################################################-->
-      <!-- <div class="bg-primary">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h4 class="section-heading-light"> Graduate Students </h4>
-          </div>
-        </div>
-      </div> -->
-      <!--Student List ######################################################################################-->
+      <!--People List ######################################################################################-->
       <!-- Fabusuyi Akindele Aroge -->
       <div class="row">
         <div class="team-profile">
-            <div class="col-md-2 col-md-offset-1 col-sm-6">
-              <div class="profile-left">
-                <img src="img/headshots/AkinAroge.jpg">
-              </div>
+          <div class="col-md-2 col-md-offset-1 col-sm-6">
+            <div class="profile-left-type4">
+              <img src="img/headshots/AkinAroge.jpg">
             </div>
-            <div class="col-md-8 col-sm-6">
-              <div class="profile-content">
-                <h2 class="profile-name">Fabusuyi Akindele Aroge</h2>
-                <h3 class="profile-title">Operando Visualization of Liquid Water Distribution in PEFCs using XCT</h3>
-                <h3 class="profile-title">
-                  <span class="role"><a href=" https://scholar.google.com/citations?user=-Qfd2igAAAAJ&hl=en">Google
-                      Scholar</a></span>
-                  <span class="role"><a href="https://www.linkedin.com/in/akindele-aroge/">LinkedIn</a></span>
-                </h3>
-                <h3 class="profile-title"></h3>
-                <ul>
-                  <li>Ph.D., Sustainable Energy Engineering, Simon Fraser University, Canada, 2021 – Present</li>
-                  <li>M.Sc., Electrical Engineering, University of Cape Town, South Africa, 2017 – 2018</li>
-                  <li>B.Sc., Electrical and Electronics Engineering, Federal University of Technology Akure, Nigeria
-                    2009 – 2014</li>
-                </ul>
-              </div> <!-- profile-content -->
-            </div> <!-- col-md-8 col-sm-6 -->
+          </div>
+          <div class="col-md-8 col-sm-6">
+            <div class="profile-content">
+              <h2 class="profile-name">Fabusuyi Akindele Aroge</h2>
+              <h3 class="profile-title">Operando Visualization of Liquid Water Distribution in PEFCs using XCT</h3>
+              <h3 class="profile-title">
+                <span class="role"><a href=" https://scholar.google.com/citations?user=-Qfd2igAAAAJ&hl=en">Google
+                    Scholar</a></span>
+                <span class="role"><a href="https://www.linkedin.com/in/akindele-aroge/">LinkedIn</a></span>
+              </h3>
+              <ul>
+                <li>Ph.D., Sustainable Energy Engineering, Simon Fraser University, 2021 – Present</li>
+                <li>M.Sc., Electrical Engineering, University of Cape Town, 2017 – 2018</li>
+                <li>B.Sc., Electrical and Electronics Engineering, Federal University of Technology Akure, 2009 – 2014
+                </li>
+              </ul>
+            </div> <!-- profile-content -->
+          </div> <!-- col-md-8 col-sm-6 -->
         </div> <!-- team profile -->
       </div>
 
@@ -311,7 +315,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/AminBahrami.jpg">
             </div>
           </div>
@@ -326,8 +330,8 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               </h3>
               <h3 class="profile-title"></h3>
               <ul>
-                <li>M.Sc., Mechanical Engineering, Sharif University of Technology, Iran (2016 – 2019)</li>
-                <li>B.Sc., Mechanical Engineering, Shiraz University, Iran (2012 – 2016)</li>
+                <li>M.Sc., Mechanical Engineering, Sharif University of Technology, 2016 – 2019</li>
+                <li>B.Sc., Mechanical Engineering, Shiraz University, 2012 – 2016</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -348,9 +352,8 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               <h3 class="profile-title">In-situ visualization of non-uniformity impact on PEMFC using XCT</h3>
               <h3 class="profile-title"></h3>
               <ul>
-                <li>M.S., Metallurgical and Materials Engineering, Indian Institute of Technology Madras, India</li>
-                <li>B.Tech., Metallurgical and Materials Engineering, National Institute of Technology Durgapur, India
-                </li>
+                <li>M.S., Metallurgical and Materials Engineering, Indian Institute of Technology Madras</li>
+                <li>B.Tech., Metallurgical and Materials Engineering, National Institute of Technology Durgapur</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -361,15 +364,15 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/headshot.sahida.jpg">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Sahida Kureshi</h2>
-              <h3 class="profile-title">Hydrogen Storage Material Modeling in collaboration with industrial partner
-                Hydrogen in Motion (H2M)</h3>
+              <h3 class="profile-title">Hydrogen Storage Material Modeling in collaboration with Hydrogen in Motion
+                (H2M)</h3>
               <h3 class="profile-title"></h3>
               <ul>
                 <li>Engineer’s Degree, Santa Clara University</li>
@@ -385,7 +388,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/Elaheh.jpg">
             </div>
           </div>
@@ -397,8 +400,8 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <span class="role"><a href="https://www.linkedin.com/in/elaheh-hantoosh-zadeh/">LinkedIn</a></span>
               </h3>
               <ul>
-                <li>M.A.Sc., Sustainable Energy Engineering, Simon Fraser University, Canada, 2021 – Present</li>
-                <li>B.Sc., Chemical Engineering, Sharif University of Technology, Iran, 2015 – 2019</li>
+                <li>M.A.Sc., Sustainable Energy Engineering, Simon Fraser University, 2021 – Present</li>
+                <li>B.Sc., Chemical Engineering, Sharif University of Technology, 2015 – 2019</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -409,7 +412,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/SyedvaliPinjari.jpg">
             </div>
           </div>
@@ -422,9 +425,9 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <span class="role"><a href="https://www.linkedin.com/in/syedvali-pinjari-36652393/">LinkedIn</a></span>
               </h3>
               <ul>
-                <li>Ph.D., Sustainable Energy Engineering, Simon Fraser University, Canada, 2019 – Present</li>
-                <li>M.Tech, Chemical Engineering, Andhra University, India, 2015 – 2017</li>
-                <li>B.Tech, Chemical Engineering, Rajiv Gandhi University of Knowledge Technologies, India, 2010 – 2014
+                <li>Ph.D., Sustainable Energy Engineering, Simon Fraser University, 2019 – Present</li>
+                <li>M.Tech, Chemical Engineering, Andhra University, 2015 – 2017</li>
+                <li>B.Tech, Chemical Engineering, Rajiv Gandhi University of Knowledge Technologies, 2010 – 2014
                 </li>
               </ul>
             </div> <!-- profile-content -->
@@ -447,30 +450,8 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               </h3>
               <h3 class="profile-title"></h3>
               <ul>
-                <li>M.Tech., Chemical Engineering, IIT Hyderabad, India (2013 - 2015)</li>
-                <li> B.Tech., Chemical Engineering, BPUT,Odisha, India (2009 - 2013)</li>
-              </ul>
-            </div> <!-- profile-content -->
-          </div> <!-- col-md-8 col-sm-6 -->
-        </div> <!-- team profile -->
-      </div>
-
-      <!-- Smarth Gupta -->
-      <div class="row">
-        <div class="team-profile">
-          <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
-              <img src="img/headshots/smiley-face.png">
-            </div>
-          </div>
-          <div class="col-md-8 col-sm-6">
-            <div class="profile-content">
-              <h2 class="profile-name">Smarth Gupta</h2>
-              <h3 class="profile-title">Research Thesis</h3>
-              <h3 class="profile-title">
-              </h3>
-              <ul>
-                <li></li>
+                <li>M.Tech., Chemical Engineering, IIT Hyderabad, 2013 - 2015</li>
+                <li> B.Tech., Chemical Engineering, BPUT,Odisha, 2009 - 2013</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -481,7 +462,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/Paran-Headshot.jfif">
             </div>
           </div>
@@ -496,9 +477,9 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               </h3>
               <ul>
                 <li>Present Position: Researcher at FCReL</li>
-                <li>Ph.D., Clean Energy Studies, Simon Fraser University, Canada, 2015 – 2020</li>
-                <li>M.Tech., Chemical Engineering, IIT Guwahati, India, 2011 – 2013</li>
-                <li>B.Eng., Chemical Engineering, MIT Manipal, India, 2007 – 2011</li>
+                <li>Ph.D., Clean Energy Studies, Simon Fraser University, 2015 – 2020</li>
+                <li>M.Tech., Chemical Engineering, IIT Guwahati, 2011 – 2013</li>
+                <li>B.Eng., Chemical Engineering, MIT Manipal, 2007 – 2011</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -509,7 +490,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/Hesam.jpg">
             </div>
           </div>
@@ -525,9 +506,9 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <span class="email"><a href="mailto: shm10@sfu.ca">Email</a></span>
               </h3>
               <ul>
-                <li>Ph.D., Sustainable Energy Engineering, Simon Fraser University, Canada, 2021 – Present</li>
-                <li>M.Sc., Chemical Engineering, Iran University of Science and Technology, Iran, 2015 – 2018</li>
-                <li>B.Sc., Chemical Engineering, University of Mazandaran, Iran, 2011 – 2015</li>
+                <li>Ph.D., Sustainable Energy Engineering, Simon Fraser University, 2021 – Present</li>
+                <li>M.Sc., Chemical Engineering, Iran University of Science and Technology, 2015 – 2018</li>
+                <li>B.Sc., Chemical Engineering, University of Mazandaran, 2011 – 2015</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -538,7 +519,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/MohsenSebdani.jpg">
             </div>
           </div>
@@ -552,9 +533,9 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <span class="role"><a href="https://www.linkedin.com/in/mohsen-mazrouei/">LinkedIn</a></span>
               </h3>
               <ul>
-                <li>Ph.D., Sustainable Energy Engineering, Simon Fraser University, Canada, 2020 – Present</li>
-                <li>M.Sc., Mechanical Engineering, University of Tehran, Iran, 2012 – 2015</li>
-                <li>B.Sc., Mechanical Engineering, Isfahan University of Technology, Iran, 2008 – 2012</li>
+                <li>Ph.D., Sustainable Energy Engineering, Simon Fraser University, 2020 – Present</li>
+                <li>M.Sc., Mechanical Engineering, University of Tehran, 2012 – 2015</li>
+                <li>B.Sc., Mechanical Engineering, Isfahan University of Technology, 2008 – 2012</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -565,7 +546,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/Erigene.jpg">
             </div>
           </div>
@@ -579,7 +560,11 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <span class="role"><a href="https://www.linkedin.com/in/erigenebakangura/">LinkedIn</a></span>
               </h3>
               <ul>
-                <li></li>
+                <li>Post-Doctoral Fellow, Sustainable Energy Engineering, Simon Fraser University, - Present</li>
+                <li>Ph.D., Polymer and Applied Chemistry, University of Science and Technology of China, 2013 - 2017
+                </li>
+                <li>Master's Degree, Material Science, South China University of Technology, 2010 - 2013</li>
+                <li>B.Sc., Physics, Chemistry and Education, University of Rwanda, 2005 - 2009</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -590,7 +575,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/MohammedShojayian.jpg">
             </div>
           </div>
@@ -599,10 +584,10 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               <h2 class="profile-name">Mohammad Soroush Shojayian</h2>
               <h3 class="profile-title">Development and integration of membrane and catalyst layer durability models
               </h3>
-              <h3 class="profile-title"></h3>
               <ul>
-                <li>M.Sc., Mechanical Engineering, Amirkabir University of Technology, Iran, 2015 – 2018</li>
-                <li>B.Sc., Mechanical Engineering, University of Tehran, Iran, 2010 – 2015</li>
+                <li>Ph.D., Mechatronic Systems Engineering, Simon Fraser University, - Present</li>
+                <li>M.Sc., Mechanical Engineering, Amirkabir University of Technology, 2015 – 2018</li>
+                <li>B.Sc., Mechanical Engineering, University of Tehran, 2010 – 2015</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -613,18 +598,18 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/JonasStoll.jfif">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Jonas Stoll</h2>
-              <h3 class="profile-title"> Optimal parameter and processing defect investigation for lab/high scale production of PEM Fuel Cells catalyst layer with and without Alloy catalyst(s)</h3>
+              <h3 class="profile-title">Optimal parameter and processing defect investigation for lab/high scale
+                production of PEM Fuel Cells catalyst layer with and without Alloy catalyst(s)</h3>
               <h3 class="profile-title">
                 <span class="role"><a href=" https://www.linkedin.com/in/jonas-stoll-candidus/">LinkedIn</a></span>
               </h3>
-              <h3 class="profile-title"></h3>
               <ul>
                 <li>Ph.D., Mechatronic Systems Engineering, Simon Fraser University, 2019 – Present</li>
                 <li>M.A.Sc. Mechatronic Systems Engineering, Simon Fraser University, 2018 – 2019 </li>
@@ -635,38 +620,11 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
         </div> <!-- team profile -->
       </div>
 
-      <!-- Yixuan Chen -->
-      <!-- <div class="row">
-        <div class="team-profile">
-          <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
-              <img src="img/headshots/smiley-face.png">
-            </div>
-          </div>
-          <div class="col-md-8 col-sm-6">
-            <div class="profile-content">
-              <h2 class="profile-name">Yixuan Chen</h2>
-              <h3 class="profile-title"> </h3>
-              <h3 class="profile-title">
-                <span class="role"><a
-                    href="https://www.researchgate.net/scientific-contributions/Yixuan-Chen-2186860245">Research
-                    Gate</a></span>
-              </h3>
-              <h3 class="profile-title"></h3>
-              <ul>
-                <li></li>
-                <li></li>
-              </ul>
-            </div> <!-- profile-content -->
-          <!--</div>--> <!-- col-md-8 col-sm-6 -->
-        <!--</div>--> <!-- team profile -->
-      <!--</div> -->
-
       <!-- Sara Abouali -->
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/SaraAbouali.jpg">
             </div>
           </div>
@@ -675,10 +633,14 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               <h2 class="profile-name">Sara Abouali</h2>
               <h3 class="profile-title">Research Thesis</h3>
               <h3 class="profile-title">
-                <span class="role"><a href="https://www.linkedin.com/in/sara-abouali-4b634882/">LinkedIn</a></span>
+                <span class="role"><a href="https://www.linkedin.com/in/sara-abouali-ph-d-4b634882/">LinkedIn</a></span>
               </h3>
               <ul>
-                <li></li>
+                <li>Present Position: Researcher at FCReL in collaboration with Ballard Power Systems</li>
+                <li>Ph.D., Rechargeable Batteries and Supercapacitors, Hong Kong University of Science and Technology,
+                  2013 - 2016</li>
+                <li>Master's Degree, Material Science & Engineering, Sharif University of Technology, 2008 - 2010</li>
+                <li>Bachelor's Degree, Material Science & Engineering, Sharif University of Technology, 2004 - 2008</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -689,7 +651,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type3">
               <img src="img/headshots/SarahGarner.png">
             </div>
           </div>
@@ -701,7 +663,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <span class="role"><a href="https://www.linkedin.com/in/sarah-garner-69815b127/">LinkedIn</a></span>
               </h3>
               <ul>
-                <li>M.A.Sc., Sustainable Energy Engineering, Simon Fraser University, Canada, – Present</li>
+                <li>M.A.Sc., Sustainable Energy Engineering, Simon Fraser University, – Present</li>
                 <li>B.Eng. Sustainable and Renewable Energy Engineering, Carleton University, 2015 – 2020</li>
               </ul>
             </div> <!-- profile-content -->
@@ -713,18 +675,20 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/CaioJuvencio.jpeg">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
-              <h2 class="profile-name">Caio Juvêncio</h2>
+              <h2 class="profile-name">Caio Vinicios Juvêncio da Silva</h2>
               <h3 class="profile-title">Synthesis and Characterization of Modified Electrodes for Vanadium Redox Flow
                 Battery Applications</h3>
               <h3 class="profile-title"></h3>
               <ul>
-                <li>B.Sc., Mechanical Engineering, Instituto Federal de Pernambuco - Campus Caruaru, Brazil</li>
+                <li>Ph.D., Mechatronic Systems Engineering, Simon Fraser University, 2022 - Present</li>
+                <li>M.A.Sc., Mechatronic Systems Engineering, Simon Fraser University, - 2021</li>
+                <li>B.Sc., Mechanical Engineering, Instituto Federal de Pernambuco - Campus Caruaru</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -735,7 +699,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/JonathanHalter.jpg">
             </div>
           </div>
@@ -747,7 +711,10 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <span class="role"><a href="https://www.linkedin.com/in/jonathan-halter-724402188/">LinkedIn</a></span>
               </h3>
               <ul>
-                <li></li>
+                <li>Present Position: Researcher at FCReL in collaboration with Ballard Power Systems</li>
+                <li>Ph.D., Chemistry, ETH Zürich, 2015 - 2019</li>
+                <li>Master's Degree, Inorganic Chemistry, University of Zurich, 2014 - 2015</li>
+                <li>Bachelor's Degree, Chemistry, University of Zurich, 2009 - 2014</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -758,13 +725,13 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type3">
               <img src="img/headshots/JohnMacDonald.jpg">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
-              <h2 class="profile-name">John A.H. MacDonald (M.A.Sc. Candidate)</h2>
+              <h2 class="profile-name">John A.H. MacDonald</h2>
               <h3 class="profile-title">Micro-XCT in-operando liquid water visualization in fuel cells</h3>
               <h3 class="profile-title"></h3>
               <ul>
@@ -790,7 +757,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/HuiHou.jpg">
             </div>
           </div>
@@ -804,11 +771,11 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <span class="role"><a href="https://www.linkedin.com/in/hui-hou-0342a5105/">LinkedIn</a></span>
               </h3>
               <ul>
-                <li>Ph.D, Chemistry, RWTH Aachen University, Germany, 2018 – 2022</li>
-                <li>M.Sc, Chemical and Biological Engineering, Friedrich-Alexander University Erlangen-Nuernberg,
-                  Germany, 2014 – 2017</li>
-                <li>B.Sc, Chemical Engineering and Technology, China University of Petroleum (East China), China, 2009 –
-                  2014</li>
+                <li>Ph.D, Chemistry, RWTH Aachen University, 2018 – 2022</li>
+                <li>M.Sc, Chemical and Biological Engineering, Friedrich-Alexander University Erlangen-Nuernberg, 2014 –
+                  2017</li>
+                <li>B.Sc, Chemical Engineering and Technology, China University of Petroleum (East China), 2009 – 2014
+                </li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -819,7 +786,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/Caue.PNG">
             </div>
           </div>
@@ -830,8 +797,8 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               <h3 class="profile-title">Building and evaluating microfluidic glycerol fuel cells</h3>
               <ul>
                 <li>Sandwich-doctored in Electrochemistry (Surface Plasmon Resonance applied to Electrochemistry),
-                  Arizona State University, Tempe, USA
-                <li>PhD in Chemistry, Instituto de Química (InQui), Universidade Federal de Mato, Grosso do Sul, Brasil
+                  Arizona State University
+                <li>Ph.D., Chemistry, Instituto de Química (InQui), Universidade Federal de Mato, Grosso do Sul, Brasil
                 </li>
                 <!--<li>Present position: Permanent Adjunct Professor in the Faculty of Exact Science and Technology,
                   Federal University of Grande Dourados, Dourados, Brazil</li>-->
@@ -1010,7 +977,8 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
         <div class="col-md-8 col-sm-6">
           <div class="profile-content">
             <h2 class="profile-name">Deepak Krishnamurthy</h2>
-            <h3 class="profile-title">BASc Thesis, BITS Pilani/SFU (2010/05 - 2010/12) – Graduated(Research conducted and
+            <h3 class="profile-title">BASc Thesis, BITS Pilani/SFU (2010/05 - 2010/12) – Graduated(Research conducted
+              and
               defended at SFU; BITS Pilani administered degree)</h3>
             <ul>
               <li>Thesis title: Simulation and design of a microfluidic fuel cell with flow-through porous electrodes
@@ -1035,14 +1003,14 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/SANDEEP_BHATTACHARYA.JPG">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Sandeep Bhattacharya</h2>
-              <h3 class="profile-title">Post-Doctoral – Graduated</h3>
+              <h3 class="profile-title">Past Post-Doctoral</h3>
               <h3 class="profile-title">
                 <span class="role"><a href="https://scholar.google.ca/citations?user=uxACznEAAAAJ&hl=en">Google
                     Scholar</a></span>
@@ -1053,10 +1021,10 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               <ul>
                 <li>Thesis title: Experimental Investigation of Polymer Electrolyte Membrane Durability</li>
                 <li>Ph.D., Engineering Materials (In-situ optical and spectroscopical characterization of anodes in
-                  Li-ion batteries), University of Windsor, Ontario, Canada</li>
+                  Li-ion batteries), University of Windsor</li>
                 <li>M.A.Sc., Engineering Materials (Mechanical characterization of alloys for automotive cylinder liner
-                  applications), University of Windsor, Ontario, Canada</li>
-                <li>B.E. (Honours), Metallurgical Engineering, Jadavpur University, West Bengal, India</li>
+                  applications), University of Windsor</li>
+                <li>B.E. (Honours), Metallurgical Engineering, Jadavpur University</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -1067,21 +1035,21 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/VictorFernandez.png">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Victor Fernandez</h2>
-              <h3 class="profile-title">Post-Doctoral – Graduated</h3>
+              <h3 class="profile-title">Past Post-Doctoral</h3>
               <h3 class="profile-title"></h3>
               <ul>
                 <li>Thesis title: Molecular dynamics simulations of the catalyst-ionomer interface in PEM fuel
                   cells in partnership with Ballard Power Systems</li>
-                <li>Ph.D., Institute of Chemical Research of Catalonia, Catalonia, Spain</li>
-                <li>M.Sc., University Rovira i Virgili, Catalonia, Spain</li>
-                <li>B.Sc., Central University of Venezuela, Caracas, Venezuela</li>
+                <li>Ph.D., Institute of Chemical Research of Catalonia</li>
+                <li>M.Sc., University Rovira i Virgili</li>
+                <li>B.Sc., Central University of Venezuela</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -1092,14 +1060,14 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/NarinderSinghKhattra.png">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Narinder Singh Khattra</h2>
-              <h3 class="profile-title">Postdoctoral – Graduated</h3>
+              <h3 class="profile-title">Past Post-Doctoral</h3>
               <h3 class="profile-title"><span class="role"><a
                     href="https://www.linkedin.com/in/nskhattra/">LinkedIn</a></span>
               </h3>
@@ -1107,7 +1075,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               <ul>
                 <li>Thesis title: Modeling of polymer fuel cell membrane degradation</li>
                 <li>Ph.D., Mechanical Engineering (On the mechanical response of polymer fuel cell membranes),
-                  University of Delaware, Newark, DE, USA</li>
+                  University of Delaware</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -1118,14 +1086,14 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/BharathyParimalam.jpg">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Bharathy Subramanian Parimalam</h2>
-              <h3 class="profile-title">PostDoctoral – Graduated</h3>
+              <h3 class="profile-title">Past Post-Doctoral</h3>
               <h3 class="profile-title">
                 <span class="role"><a href="https://scholar.google.com/citations?user=nYbluVcAAAAJ&hl=en">Google
                     Scholar</a></span>
@@ -1135,9 +1103,8 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
               <ul>
                 <li>Thesis title: In-situ and Operando Nano-scale 3D Imaging of fuel cells, zinc-air batteries and
                   their components</li>
-                <li>Ph.D., Chemistry, University of Rhode Island, Kingston, RI, USA</li>
-                <li>B.Tech., Chemical and Electrochemical Engineering, Central Electrochemical Research Institute,
-                  Karikudi, TN, India</li>
+                <li>Ph.D., Chemistry, University of Rhode Island</li>
+                <li>B.Tech., Chemical and Electrochemical Engineering, Central Electrochemical Research Institute</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -1148,22 +1115,22 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/Pouria.JPG">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Pouria Ahmadi</h2>
-              <h3 class="profile-title">Post-Doctoral – Graduated</h3>
+              <h3 class="profile-title">Past Post-Doctoral</h3>
               <h3 class="profile-title"></h3>
               <ul>
                 <li>Thesis title: Affordable low-carbon emission vehicle technologies to meet climate goals and
                   life cycle assessment (LCA) of alternative fuels for vehicle technologies</li>
                 <!--<li>Present position: Assistant Professor, University of Tehran</li>-->
-                <li>Ph.D., University of Ontario Institute of Technology, Ontario, Canada</li>
-                <li>M.Sc., Iran University of Science and Technology, Tehran, Iran</li>
-                <li>B.Sc., University of Tehran, Tehran, Iran</li>
+                <li>Ph.D., University of Ontario Institute of Technology</li>
+                <li>M.Sc., Iran University of Science and Technology</li>
+                <li>B.Sc., University of Tehran</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -1174,7 +1141,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/Ali.JPG">
             </div>
           </div>
@@ -1182,15 +1149,15 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Alireza Sadeghi Alavijeh</h2>
-              <h3 class="profile-title">Post-Doctoral – Graduated</h3>
+              <h3 class="profile-title">Past Post-Doctoral</h3>
               <h3 class="profile-title"></h3>
               <ul>
                 <li>Thesis title: Mechanical Durability of Polymer Electrolyte Membrane Fuel Cells</li>
                 <!--<li>Present position: Process Engineer at ZincNyx Energy Solutions</li>-->
                 <li>Postdoctoral research Fellow, Simon Fraser University – Automotive Fuel Cell </li>
-                <li>Ph.D., Mechatronic Systems Engineering , Simon Fraser University, Canada</li>
-                <li>M.Sc., Materials Science & Engineering, Sharif University of Technology, Iran</li>
-                <li>B.Sc., Materials Science & Engineering , Sharif University of Technology, Iran</li>
+                <li>Ph.D., Mechatronic Systems Engineering , Simon Fraser University</li>
+                <li>M.Sc., Materials Science & Engineering, Sharif University of Technology</li>
+                <li>B.Sc., Materials Science & Engineering , Sharif University of Technology</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -1201,22 +1168,22 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type4">
               <img src="img/headshots/seb.jpg">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Sebastian Eberhardt</h2>
-              <h3 class="profile-title">Post-Doctoral – Graduated</h3>
+              <h3 class="profile-title">Past Post-Doctoral</h3>
               <h3 class="profile-title"><span class="role"><a
                     href="https://scholar.google.ch/citations?user=hQmxxkQAAAAJ&hl=de">Google Scholar</a></span></h3>
               <h3 class="profile-title"></h3>
               <ul>
                 <li>Thesis title: X-ray Tomographic Microscopy of Polymer Electrolyte Fuel Cells </li>
                 <!--<li>Present position: Testing and Innovation at Daimler</li>-->
-                <li>Ph.D., Paul Scherrer Institute/Swiss Federal Institute of Technology, Zurich, Switzerland.</li>
-                <li>M.Sc., Chemical and Biological Engineering, Friedrich-Alexander-University, Erlangen, Germany</li>
+                <li>Ph.D., Paul Scherrer Institute/Swiss Federal Institute of Technology.</li>
+                <li>M.Sc., Chemical and Biological Engineering, Friedrich-Alexander-University</li>
               </ul>
             </div> <!-- profile-content -->
           </div> <!-- col-md-8 col-sm-6 -->
@@ -1227,14 +1194,14 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
       <div class="row">
         <div class="team-profile">
           <div class="col-md-2 col-md-offset-1 col-sm-6">
-            <div class="profile-left">
+            <div class="profile-left-type3">
               <img src="img/headshots/AT.jpg">
             </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="profile-content">
               <h2 class="profile-name">Andrey Tokarev</h2>
-              <h3 class="profile-title">Post-Doctoral – Graduated</h3>
+              <h3 class="profile-title">Past Post-Doctoral</h3>
               <h3 class="profile-title"></h3>
               <ul>
                 <li>Thesis title: Multiscale modeling of new functional materials for energy storage</li>
@@ -1250,7 +1217,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
         <div class="row">
           <div class="team-profile">
             <div class="col-md-2 col-md-offset-1 col-sm-6">
-              <div class="profile-left">
+              <div class="profile-left-type4">
                 <img src="img/headshots/Dillip.jpg">
               </div>
             </div>
@@ -1262,8 +1229,8 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <h3 class="profile-title"></h3>
                 <ul>
                   <li>Thesis title: Membrane degradation phenomenon in Polymer electrolyte membrane fuel cells</li>
-                  <li>M.Sc., Alternative Energy, Ira. Fulton Schools of Engineering, Arizona State University, USA</li>
-                  <li>B.Eng., Mechanical Engineering, Anna University, India</li>
+                  <li>M.Sc., Alternative Energy, Ira. Fulton Schools of Engineering, Arizona State University</li>
+                  <li>B.Eng., Mechanical Engineering, Anna University</li>
                 </ul>
               </div> <!-- profile-content -->
             </div> <!-- col-md-8 col-sm-6 -->
@@ -1274,7 +1241,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
         <div class="row">
           <div class="team-profile">
             <div class="col-md-2 col-md-offset-1 col-sm-6">
-              <div class="profile-left">
+              <div class="profile-left-type4">
                 <img src="img/headshots/PardisSadeghi.jpg">
               </div>
             </div>
@@ -1286,7 +1253,7 @@ Last Edited : 2018-03-08 (Mike Xu: updated Narinder's information)
                 <ul>
                   <li>Thesis title: Numerical Modeling of Capillary-Driven, Paper-Based Microfluidic
                     Flow-Batteries</li>
-                  <li>B.Sc., Chemical Engineering , University of Tehran, Iran</li>
+                  <li>B.Sc., Chemical Engineering , University of Tehran</li>
                 </ul>
               </div> <!-- profile-content -->
             </div> <!-- col-md-8 col-sm-6 -->
